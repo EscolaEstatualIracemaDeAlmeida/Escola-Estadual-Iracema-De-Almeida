@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4b0082;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 20px;
+    /* Estilização para o fundo da página */
+
+    background-image: url(https://www.shutterstock.com/image-photo/abstract-technology-background-artificial-intelligence-260nw-2516525263.jpg);
+    background-size: cover; /* A imagem cobre toda a tela */
+    background-attachment: fixed; /* Mantém a imagem fixa */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    color: #fff; /* Define a cor do texto como branco para maior contraste (opcional) */
+
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #7026a59f;
+    color: white;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/d0/c5/d2/d0c5d2626fe05de81f3afe9d80c815e8.gif);
+}
+
+main {
+    margin-top: 20px;
+}
+
+.section {
+    background-color: #7026a59f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+    color: #32cd32;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #dcdcdc;
+    text-align: justify;
+}
+
+footer{
+    padding: 15px;
+    color:#7026a59f;
+    border-radius: 10px;
+    background-color: #7026a59f; /* Cor de fundo roxa */
+}
+
+footer > p {
+    text-align: center;
+}
+/* Estilização da imagem */
+img {
+    max-width: 100%; /* A imagem não excederá a largura do seu contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona cantos arredondados */
+    box-shadow: 0 10px 50px rgba(20, 228, 5, 0.836); /* Adiciona uma sombra suave */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+.nav-link.btn-custom{
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.nav-link.btn-custom:hover {
+    background-color: #7026a59f; /* Cor roxa mais escura ao passar o mouse */
+    transition: 0.3s;
+}
+/* Estilização personalizada para a seção do formulário */
+.form-section {
+    background-color: #7026a59f; /* Cor de fundo roxa */
+    padding: 30px; /* Espaçamento interno para maior conforto visual */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 20px 50px rgba(20, 228, 5, 0.836); /* Sombra suave para destacar o formulário */
+}
+
