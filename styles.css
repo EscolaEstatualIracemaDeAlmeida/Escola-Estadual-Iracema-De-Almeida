@@ -54,6 +54,31 @@ p {
     text-align: justify;
 }
 
+#iframe{
+ text-align: center;  
+}
+
+#seta{
+    position: relative;
+    top: 8px;
+    font-size: 30px;
+}
+
+ol{
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:hover{
+    color: white;
+}
+
 footer{
     padding: 15px;
     color:#7026a59f;
